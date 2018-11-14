@@ -7,6 +7,6 @@ PYTHONPATH=. pytest tests/test_block.py
 
 (OR)
 
-run as 
-python -m pytest
+run as from outer dir. Mark the pytest as source dir.
+python -m pytest tests/.......
 
